@@ -309,3 +309,12 @@ header nav a[href]:hover::after {
     flex: 1 1 60%;
   }
 }
+.panel .left {
+  order: -1;
+}
+
+@media (min-width: 900px) {
+  .cards {
+    flex-wrap: nowrap;
+  }
+}
