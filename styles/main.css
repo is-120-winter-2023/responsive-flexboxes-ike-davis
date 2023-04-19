@@ -73,6 +73,10 @@ body {
   --color-dark-accent: #272727;
   --color-accent: #54a1ee;
   --color-accent-light: #8dcbf2;
+  --color-headings: #000;
+  --color-svg: black;
+  --color-svg-hover: var(--color-primary);
+  --color-svg-close: #fff;
 }
 .sr-only {
   clip: rect(1px, 1px, 1px, 1px);
