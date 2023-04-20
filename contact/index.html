@@ -21,6 +21,13 @@
 <body>
   <header>
     <nav>
+      <div class="menu-icon">
+        <svg viewbox="0 0 60 60" width="40px" height="40px">
+          <line x1="5%" y1="50%" x2="95%" y2="50%" />
+          <line x1="5%" y1="50%" x2="95%" y2="50%" />
+        </svg>
+      </div>
+      <h2 class="visually-hidden">Main menu</h2>
       <ul>
         <li><a href="../">Home</a></li>
         <li><a href="../about/">About</a></li>
@@ -29,9 +36,15 @@
     </nav>
   </header>
   <main>
-    <h1>Contact</h1>
-    <p>If you want to send me a message, email me at ikejdavis@gmail.com! Can't wait to hear from you!</p>
-    <img src="../images/japan.svg" alt="a line drawing of a japanese building">
+    <form>
+
+      <label for="email">Put Your Email Here:</label>
+      <input type="text" name="email" id="email">
+    </form>
+    <div class="pointer-finger">
+      <img src="images/pointer-finger-500px.jpg" width="500" height="500">
+    </div>
+
   </main>
 </body>
 
